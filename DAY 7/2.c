@@ -1,21 +1,21 @@
 #include <stdio.h>
 int main(){
     int a,b;
-    printf("Press 1 for English\n");
-    printf("Press 2 for Hindi\n");
-    printf("Press for 3 for gujarti\n");
+    printf("Press 1 For English\n");
+    printf("Press 2 For Hindi\n");
+    printf("Press 3 For Gujrati\n");
 
-    printf("Enter  any key");
+    printf("Enter Your Choise =");
     scanf("%d",&a);
 
     switch (a)
     {
         case 1:
-            printf("English");
+            printf("English\n");
             printf("Press 1 for Internet Recharge\n");
             printf("Press 2 for Top-up Recharge\n");
             printf("Press 3 for Special Recharge\n");
-            printf("Enter your numbre");
+            printf("Enter Your choise:");
 
             scanf("%d",&b);
 
