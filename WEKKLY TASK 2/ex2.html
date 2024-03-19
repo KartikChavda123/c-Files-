@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <style>
+    container-fluid{
+        height: auto;
+        /* border: 2px solid; */
+    }
+    .cadbury{
+        height: 700px;
+        /* border: 2px solid maroon; */
+        background: url("IMG/s5.webp");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .product{
+        height: 500px;
+        /* border: 2px solid white; */
+    }
+    .p_1{
+        color: white;
+        font-weight: bold;
+        margin-top: -15px;
+    }
+    .the{
+        color: white;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    .find{
+        color: white;
+        margin-top: 20px;
+    }
+    .take{
+        height: 40px;
+        width: 30%;
+        border-radius: 50px;
+        background-color: white;
+        color: darkblue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 17px;
+        letter-spacing: 2px;
+        border: 1px solid white;
+        margin-top: 20px;
+    }
+    .take:hover{
+        background-color: transparent;
+        color: white;
+        transition: 2s;
+    }
+  </style>
+  <body>
+    <div class="container-fluid">
+        <div class="row cadbury d-flex align-items-center">
+            <center>
+                <div class="col col-lg-5 d-flex justify-content-center align-items-center flex-column product">
+                    <hr style="width: 20%; color: rgb(255, 255, 255); border: 2px solid;">
+                    <p class="h3 p_1">Product</p>
+                    <hr style="width: 20%; color: rgb(255, 255, 255); border: 2px solid; margin-top: -4px;">
+                    <p class="h2 the">THE WAY YOU EAT A CREME <br> EGG SAYS EVERYTHING ABOUT <br> YOU</p>
+                    <p class="h6 find">Find out who you really are.</p> 
+                    <div class="take">TAKE THE TEST</div>
+                </div>
+            </center>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
